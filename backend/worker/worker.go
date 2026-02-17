@@ -2,9 +2,9 @@ package worker
 
 import (
 	"context"
+	"feedback-funnel/models"
+	"feedback-funnel/services"
 	"log"
-	"your_module/models"
-	"your_module/services"
 
 	"github.com/redis/go-redis/v9"
 	"gorm.io/gorm"

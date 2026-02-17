@@ -2,8 +2,8 @@ package api
 
 import (
 	"context"
+	"feedback-funnel/models"
 	"net/http"
-	"your_module/models"
 
 	"github.com/gin-gonic/gin"
 	"github.com/redis/go-redis/v9"

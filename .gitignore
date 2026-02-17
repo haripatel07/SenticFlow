@@ -1,0 +1,39 @@
+# Node / Next
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Ignore local generated Next artifacts that may be present
+/.next

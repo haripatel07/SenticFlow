@@ -276,8 +276,8 @@ export default function FeedbackDashboard() {
                       <p className="font-medium text-slate-200 mb-1">
                         {fb.is_processed ? fb.summary : <span className="text-slate-500 italic flex items-center gap-1"><Loader2 size={12} className="animate-spin" /> Processing AI...</span>}
                       </p>
-                      <p className="text-sm text-slate-500 line-clamp-2 group-hover:line-clamp-none transition-all duration-300">
-                        "{fb.content}"
+                        <p className="text-sm text-slate-500 line-clamp-2 group-hover:line-clamp-none transition-all duration-300">
+                          {"\"" + fb.content + "\""}
                       </p>
                     </td>
                     <td className="p-4 align-top">

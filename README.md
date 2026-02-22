@@ -48,7 +48,7 @@ Backend (local)
 ```bash
 cd backend
 cp .env.example .env
-# Edit .env to set real values (do NOT commit real secrets)
+# Edit .env to set real values
 ```
 
 2. Run the server:
@@ -86,5 +86,4 @@ Future roadmap
 
 License
 
-This project is licensed under the MIT License — see the `LICENSE` file. Replace the copyright holder in `LICENSE`.
-
+This project is licensed under the MIT License — see the `LICENSE` file.

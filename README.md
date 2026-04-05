@@ -1,6 +1,6 @@
-# Feedback Funnel: AI-Powered Data Pipeline
+# SenticFlow: AI-Powered Data Pipeline
 
-Feedback Funnel is a high-performance, asynchronous data pipeline designed to ingest, analyze, and visualize customer feedback at scale. Instead of performing heavy AI tasks synchronously in request handlers, the system pushes work to a Redis-backed job queue and processes it asynchronously with a worker pool, ensuring sub-second ingestion times and high availability.
+SenticFlow is a high-performance, asynchronous data pipeline designed to ingest, analyze, and visualize customer feedback at scale. Instead of performing heavy AI tasks synchronously in request handlers, the system pushes work to a Redis-backed job queue and processes it asynchronously with a worker pool, ensuring sub-second ingestion times and high availability.
 
 Key features
 
